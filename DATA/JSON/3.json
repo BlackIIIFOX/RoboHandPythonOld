@@ -1,0 +1,1 @@
+{"info": {"num_tem": 3, "name": "Фак"}, "const": ["Фак", "Fuck"], "info_action": {"count_action": 2, "iterable_action": 0, "num_act_rep": 3}, "actions": [{"num_action": 1, "del_action": 255, "action": [255, 255, 0, 255, 255]}, {"num_action": 2, "del_action": 255, "action": [255, 255, 255, 255, 255]}]}

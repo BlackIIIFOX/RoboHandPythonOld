@@ -1,0 +1,1 @@
+{"info": {"num_tem": 5, "name": "Ок"}, "const": ["Окей", "ок","ок","OK","Хорошо","Хорошечно"], "info_action": {"count_action": 2, "iterable_action": 0, "num_act_rep": 1}, "actions": [{"num_action": 1, "del_action": 100, "action": [0, 0, 0, 210, 210]}, {"num_action": 2, "del_action": 100, "action": [0, 0, 0, 200, 200]}]}

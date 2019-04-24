@@ -1,0 +1,1 @@
+{"info": {"num_tem": 2, "name": "Разжать"}, "const": ["Разжать", "Разжатие", "Рожать", "Разожми", "   Выполнить разжатие "], "info_action": {"count_action": 2, "iterable_action": 0, "num_act_rep": 1}, "actions": [{"num_action": 1, "del_action": 100, "action": [0, 0, 0, 0, 0]}, {"num_action": 2, "del_action": 100, "action": [5, 5, 5, 5, 5]}]}
