@@ -69,14 +69,13 @@ class Hand():
     __recognizer = ''
     __serial = ''
 
-
-    def __init__(self,port,speed):
-        self.__path_to_program = os.getcwd()
+    def __init__(self, port, speed):
+        self.__path_to_program = os.path.dirname(os.path.realpath(__file__))
         path_to_json = self.__path_to_program + "/DATA/JSON/"
         self.__data_action.clear()
         self.__data_action = self.__create_data(path_to_json)
         self.__recognizer = neiro.Recognizer(self.__path_to_program)
-        self.__serial = serial.Serial(port,speed)
+        self.__serial = serial.Serial(port, speed)
 
     def __create_data(self,path_to_json):
         files = os.listdir(path=path_to_json)
@@ -136,7 +135,7 @@ class Hand():
 #4bit... - action
 
 if __name__ == "__main__":
-    hand_rec = Hand("COM14",9600)
+    hand_rec = Hand("COM4", 9600)
 
     while(1):
         print("Введите фразу")

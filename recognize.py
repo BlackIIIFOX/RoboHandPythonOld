@@ -79,7 +79,7 @@ text = """<?xml version="1.0" encoding="utf-8"?>
 	<variant confidence="0">сжать</variant>
 </recognitionResults>"""
 
-hand_rec = receotion.Hand("COM14",9600)
+hand_rec = receotion.Hand("COM4", 9600)
 
 if __name__ == "__main__":
     while(1):

@@ -5,7 +5,6 @@ from keras.layers import Dense
 from keras.models import model_from_json
 import Classificator.Learn_neiro.text_in_vec as text_in_vec
 import numpy as np
-import Classificator.Learn_neiro.Module_MySQL as SQL
 import os
 from gensim.models import Word2Vec
 

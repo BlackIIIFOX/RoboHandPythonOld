@@ -13,7 +13,7 @@ import Classificator.Learn_neiro.text_in_vec as text_in_vec
 def neiro(Path_to_prog,data,count_tem):
 
         # data[0] - tems, data[1] - const, data[2] -w2v
-        input_output=text_in_vec.for_train(data[2],data[1],data[0],count_tem)
+        input_output = text_in_vec.for_train(data[2],data[1],data[0],count_tem)
 
         print('Выборка переведена в допустимый формат')
 

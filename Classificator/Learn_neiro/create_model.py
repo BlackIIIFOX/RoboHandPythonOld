@@ -2,10 +2,6 @@ import Classificator.Learn_neiro.lemmatization as lemmatization
 from gensim.models import Word2Vec, Phrases
 import gensim.models
 import os
-import Cython
-import Classificator.Learn_neiro.Module_MySQL as SQL
-
-
 
 def create(Path_to_prog,data):
 
